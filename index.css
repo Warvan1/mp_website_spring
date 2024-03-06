@@ -1,0 +1,44 @@
+
+body {
+    background-color: #111;
+    color: rgb(206, 213, 213);
+}
+
+h3 {
+    color: rgb(178, 7, 7)
+}
+
+h4 {
+    color: rgb(48, 132, 228)
+}
+
+h1.title {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+div.banner {
+    border-radius: 15px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #046109;
+}
+  
+div.page {
+    width: 50%;
+    margin: auto;
+}
+/* li.nav a {
+    display: block;
+    color: rgb(206, 213, 213);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} */
+  
+/* Change the link color to #111 (black) on hover */
+/* li.nav a:hover {
+    background-color: #0b310d;
+} */
+
