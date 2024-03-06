@@ -13,14 +13,18 @@ h4 {
 }
 
 h1.title {
-    width: 50%;
-    margin: auto;
-    padding: 10px;
+    text-align: center;
+}
+
+h2.title {
+    text-align: center;
 }
 
 div.banner {
     border-radius: 15px;
     list-style-type: none;
+    width: 50%;
+    margin: auto;
     overflow: hidden;
     background-color: #046109;
 }
@@ -29,16 +33,3 @@ div.page {
     width: 50%;
     margin: auto;
 }
-/* li.nav a {
-    display: block;
-    color: rgb(206, 213, 213);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-} */
-  
-/* Change the link color to #111 (black) on hover */
-/* li.nav a:hover {
-    background-color: #0b310d;
-} */
-
