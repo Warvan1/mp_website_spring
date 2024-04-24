@@ -9,6 +9,7 @@
     <body>
         <div class="banner">
             <h1 class="title">Nathan Collinsworth, MP451 Spring 2023</h1>
+            <h2 class="title">3 credits</h2>
         </div>
         
         <div class="page">
@@ -16,37 +17,26 @@
             <h3>Projects</h3>
             <h4>Sync Scheduler</h4>
             <ul>
-                <li>Added manual sync and hot reload of mirrors.json</li>
-                <li>Improved memory safty</li>
+                <li>Added manual sync and file watcher of mirrors.json.</li>
+                <li>Improved memory safty.</li>
+                <li>Fixed some smaller bugs.</li>
             </ul>
 
             <h4>Torrent Handler</h4>
             <ul>
-                <li>75% Complete</li>
                 <li>Scrapes torrent links from websites in mirrors.json</li>
-                <li>Creates hard links of torrent files synced by the sync scheduler into the torrent directory.</li>
-                <li>TODO:
-                    <ul>
-                        <li>Fix erised permission error</li>
-                        <li>add download dir hard links</li>
-                        <li>add log server connection</li>
-                        <li>add docker container</li>
-                    </ul>
-                </li>
+                <li>Creates hard links of torrent files that are downloaded by the sync scheduler into the "torrent" directory,</li>
+                <li>Creates hard links to the files that the torrent files need to succesfully torrent into the "download" directory.</li>
+                <li>I also added a connection to the log server and a docker container for Torrent Handler.</li>
+                <li>TODO:</li>
+                <li>Add hot reload for mirrors.json.</li>
             </ul>
 
             <h4>Mirror Map</h4>
             <ul>
-                <li>25% Complete</li>
-                <li>Maxmind database handling</li>
-                <li>TODO:
-                    <ul>
-                        <li>update nginx tail</li>
-                        <li>socket connection handler (I want to learn zmq)</li>
-                        <li>add log server connection</li>
-                        <li>add docker container</li>
-                    </ul>
-                </li>
+                <li>I helped with the mirrormap component by making the Maxmind database handling code.</li>
+                <li>TODO:</li>
+                <li>Create the mirrormap front end that connects to the socket</li>
             </ul>
 
             <h3>Talks</h3>
@@ -56,11 +46,14 @@
 
             <h3>Cosi Move</h3>
             <ul>
-                <li>Went to Colo and helped move and setup servers during the big cosi move</li>
+                <li>Went to Colo and helped move and setup several servers in the old main server room: </li>
+                <li>Mirror, Kasper, Taldos, Taltres, and Ziltoid</li>
             </ul>
 
-            <h3>Teach</h3>
+            <h3>Other Important Things of Note</h3>
             <ul>
+                <li>I presented about the mirror migration project at Raps with Juno, Cary, and Amity</li>
+                <li>I attended Juno's sysadmin workshop.</li>
                 <li>Helped several cs142 students with there assignments.</li>
             </ul>
         </div>

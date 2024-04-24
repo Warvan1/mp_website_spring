@@ -18,6 +18,12 @@ h1.title {
     padding: 10px;
 }
 
+h2.title {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
 div.banner {
     border-radius: 15px;
     list-style-type: none;
